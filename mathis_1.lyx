@@ -1,0 +1,250 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\use_default_options true
+\maintain_unincluded_children false
+\language ukrainian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "FreeSerif"
+\font_sans "default" "FreeSans"
+\font_typewriter "default" "FreeMono"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style russian
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Піфагор
+\end_layout
+
+\begin_layout Subtitle
+життя і творчість
+\end_layout
+
+\begin_layout Author
+Хорсун Дмитро
+\end_layout
+
+\begin_layout Institute
+ДНУ ім.
+ Олеся Гончара
+\end_layout
+
+\begin_layout TitleGraphic
+\begin_inset Graphics
+	filename mathis_1.jpg
+	lyxscale 30
+	height 40pheight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Біографія
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Батько - Мнесарх Тирський, громадянин Самоса
+\end_layout
+
+\begin_layout Itemize
+Мати - Партенід (або Піфаїда)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Навчання
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+В 18 років потрапив на навчання до єгипетських жерців
+\end_layout
+
+\begin_layout Itemize
+Вчився в Єгипті приблизно 22 роки
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Вавилон
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Піфагор потрапив у Вавилон як полонений царя Камбіза
+\end_layout
+
+\begin_layout Itemize
+Провів тут 12 років
+\end_layout
+
+\begin_layout Itemize
+Вчився у місцевих магів і жерців
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Філософська школа
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Піфагор заснував свою школу у Кротоні в Південній Італії
+\end_layout
+
+\begin_layout Itemize
+Пропагувалися не тільки знання, а й особливий спосіб життя
+\end_layout
+
+\begin_layout Itemize
+Ввів в обіг слова 
+\begin_inset Quotes xld
+\end_inset
+
+філософія
+\begin_inset Quotes xrd
+\end_inset
+
+ і 
+\begin_inset Quotes xld
+\end_inset
+
+філософ
+\begin_inset Quotes xrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Відкрив теорему про відношення гіпотенузи і катетів
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

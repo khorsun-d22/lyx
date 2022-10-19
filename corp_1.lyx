@@ -1,0 +1,586 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{lipsum}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language ukrainian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "Latin Modern Roman"
+\font_sans "default" "Latin Modern Sans"
+\font_typewriter "default" "Latin Modern Mono"
+\font_math "auto" "default"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf true
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing other 1.5
+\use_hyperref true
+\pdf_title "Звіт з лабораторної роботи №1"
+\pdf_author "Хорсун Дмитро Владиславович"
+\pdf_subject "Робота з додатком Teams корпоративного середовища Office 365. Колективне створення презентації"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 1.25cm
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style russian
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Звіт з лабораторної роботи №1
+\shape italic
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes xld
+\end_inset
+
+Робота з додатком Teams корпоративного середовища Office
+\noun on
+
+\begin_inset space ~
+\end_inset
+
+
+\noun default
+365.
+ Колективне створення презентації
+\begin_inset Quotes xrd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\shape default
+з курсу 
+\begin_inset Quotes xld
+\end_inset
+
+корпоративне середовище та комунікаційні технології
+\begin_inset Quotes xrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+студента групи ПА-22-2
+\begin_inset Newline newline
+\end_inset
+
+Хорсуна Дмитра Владиславовича
+\end_layout
+
+\begin_layout Right Address
+Кафедра комп’ютерних технологій, ДНУ
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Опис завдання
+\end_layout
+
+\begin_layout Enumerate
+Поділитися на команди (3-4 ст.).
+\end_layout
+
+\begin_layout Enumerate
+У Teams, в команді дисципліни 
+\begin_inset Quotes xld
+\end_inset
+
+Корпоративне середовище та комунікаційні технології
+\begin_inset Quotes xrd
+\end_inset
+
+, за допомоги викладача створити окремий (закритий) канал коман-ди.
+ Назва каналу повинна мати таку структуру: 
+\noun on
+Група_підгрупа_назваКоманди
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+.
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ Наприклад: 
+\noun on
+ПА-21-2_1_Team1
+\noun default
+.
+\end_layout
+
+\begin_layout Enumerate
+Провести нараду команди, для чого організувати зібрання у Teams.
+ Обговорити питання щодо створення та оформлення презентації.
+ Під час роботи над презе-нтацією проводити зібрання таким чином, щоб організато
+ром зібрання побував кожний учасник команди.
+ Організатор зібрання має зробити скріншот екрану зібрання, де видно усіх
+ учасників зібрання та прогрес самого зібрання.
+ Цей скріншот додати у свій звіт.
+\end_layout
+
+\begin_layout Enumerate
+Обов’язково треба розподілити функції між усіма учасниками команди: ідея,
+ дизайн, підбір матеріалу, оформлення тощо.
+ Цей розподіл треба зафіксувати записом у зборах команди.
+\end_layout
+
+\begin_layout Enumerate
+Створити презентацію 
+\begin_inset Quotes xld
+\end_inset
+
+Наша команда
+\begin_inset Quotes xrd
+\end_inset
+
+, у якій представити кожного учасника окремо та команду у цілому.
+ Один із учасників — координатор, він створює файл презентації на вкладці
+ Файли так, щоб цей файл був доступний усім учасникам для подальшого редагування.
+\end_layout
+
+\begin_layout Enumerate
+Для кожного учасника виділяється в презентації слайд, який учасник оформлює,
+ заповнюючи його інформацією про себе (тексти, фото, малюнки і т.п.).
+\end_layout
+
+\begin_layout Enumerate
+Один слайд наприкінці треба оформити спільно.
+ Цей слайд має стосуватися усієї команди.
+ Там може бути кросворд, ребус або щось подібне, де у якості відповідей
+ будуть слова, які мають відношення до команди, її учасників, або їх захоплень,
+ які були відображені у презентації.
+\end_layout
+
+\begin_layout Enumerate
+Презентація має містити наступні слайди:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+титульний;
+\end_layout
+
+\begin_layout Enumerate
+загальний з описом команди;
+\end_layout
+
+\begin_layout Enumerate
+слайди з презентацією кожного учасника окремо;
+\end_layout
+
+\begin_layout Enumerate
+спільний слайд-ребус.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Кожному студентові оформити звіт
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Правила оформлення — див.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "Вимоги до оформлення звітів"
+target "https://dnufpm.sharepoint.com/:w:/r/sites/-185/DocLib/%D0%97%D0%B0%D0%B3%D0%92%D0%B8%D0%BC%D0%BE%D0%B3%D0%B8%20%D0%B4%D0%BE%20%D0%BB%D0%B0%D0%B1.%D1%80%D0%BE%D0%B1.docx?d=w27e793cf61ec45bd83e797a9f4c0f4b1&csf=1&web=1&e=AYUfjv"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, який містить всі необхідні розділи.
+ Обов’язково має бути описаний власний внесок у створену презентацію.
+\end_layout
+
+\begin_layout Section
+Опис кроків виконання (із зазначенням інструментів та докладними поясненнями
+ і посиланнями на результат)
+\end_layout
+
+\begin_layout Enumerate
+Наша команда була сформована за принципом 
+\begin_inset Quotes xld
+\end_inset
+
+ім'я повинно бути Дмитро
+\begin_inset Quotes xrd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+У нас не було необхідних прав, тому ми не створили окремий канал.
+ Ми створили групу в Telegram
+\noun on
+ 
+\noun default
+та спілкувались там
+\noun on
+.
+\end_layout
+
+\begin_layout Enumerate
+Ми провели нараду в Jitsi
+\begin_inset space ~
+\end_inset
+
+Meet
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://meet.jit.si/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ (див.
+ рис.
+ 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:Нарада-в-JitsiMeet"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Ми обговорили стиль презентації та розподілили ролі.
+ Моя роль - обробка фотографій.
+ Також я був організатором наради.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename corp_1_jitsi.png
+	display false
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Нарада в Jitsi
+\begin_inset space ~
+\end_inset
+
+Meet
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Нарада-в-JitsiMeet"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Ми обрали персонажів з М/Ф 
+\begin_inset Quotes xld
+\end_inset
+
+Остров сокровищ
+\begin_inset Quotes xrd
+\end_inset
+
+ та створили свої описи з описів з фільму, а також зробили свої фотографії.
+ Я, Хорсун Дмитро, обробив фотографії в графічному редакторі GIMP
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.gimp.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ (див.
+ рис.
+ 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:Редактор-зображень-GIMP"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Координатор, Сапін Дмитро, зібрав ці описи та фотографії в презентацію.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename corp_1_gimp.png
+	display false
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Редактор зображень GIMP
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Редактор-зображень-GIMP"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Ми вигадали питання для захисту і задали їх на захисті.
+\end_layout
+
+\begin_layout Enumerate
+Ми провели нараду в Teams (див.
+ рисунок 
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "fig:Нарада-в-Teams"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), оскільки це вимагається від виконавців лабораторної роботи.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename corp_1_teams.jpeg
+	display false
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Нарада в Teams
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Нарада-в-Teams"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Аналіз результатів.
+ Висновки
+\end_layout
+
+\begin_layout Standard
+Ми створили презентацію використовуючи корпоративне середовище Office
+\begin_inset space ~
+\end_inset
+
+365 і мені дуже жаль, що цей антікваріат вважається гідним вивчення.
+ Дорогий, тормозний, глючний та відсталий антікваріат.
+\end_layout
+
+\end_body
+\end_document
