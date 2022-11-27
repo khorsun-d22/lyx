@@ -1,0 +1,1372 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extarticle
+\begin_preamble
+\usepackage{
+	adjustbox,
+	indentfirst,
+	lipsum,
+	makecell,
+	pdflscape,
+}
+
+\usepackage[author={Хорсун Дмитро}]{pdfcomment}
+
+\usepackage{titlesec}
+
+\titleformat*{\section}{\fontsize{16}{20}\fontseries{b}\selectfont\centering}
+\titlespacing*{\section}{0pt}{0pt}{6pt}
+
+\titleformat*{\subsection}{\fontsize{15}{18}\fontseries{b}\selectfont}
+\titlespacing*{\subsection}{0pt}{6pt}{6pt}
+
+\lhead{}
+\rhead{\thepage}
+\cfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\end_preamble
+\use_default_options true
+\begin_modules
+customHeadersFooters
+\end_modules
+\maintain_unincluded_children false
+\language ukrainian
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "Liberation Serif"
+\font_sans "default" "Liberation Sans"
+\font_typewriter "default" "Liberation Mono"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize 14
+\spacing other 1.5
+\use_hyperref true
+\pdf_title "Назва українською мовою"
+\pdf_author "Хорсун Дмитро Владиславович"
+\pdf_subject "Корпоративне середовище та комунікаційні технології"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 1.25cm
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style russian
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Address
+\noindent
+\align center
+Міністерство освіти і науки України
+\begin_inset Newline newline
+\end_inset
+
+Дніпровський національний університет імені Олеся Гончара
+\begin_inset Newline newline
+\end_inset
+
+Факультет прикладної математики
+\begin_inset Newline newline
+\end_inset
+
+Кафедра комп'ютерних 
+\begin_inset Quotes xld
+\end_inset
+
+технологій
+\begin_inset Quotes xrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size large
+\begin_inset Quotes xld
+\end_inset
+
+АНАЛІТИЧНИЙ ОГЛЯД
+\begin_inset Quotes xrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size large
+з 
+\begin_inset Quotes xld
+\end_inset
+
+дисципліни
+\begin_inset Quotes xrd
+\end_inset
+
+ 
+\begin_inset Quotes xld
+\end_inset
+
+Корпоративне середовище та комунікаційні технології
+\begin_inset Quotes xrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size large
+Тема: 
+\begin_inset Quotes xld
+\end_inset
+
+Ціннісна
+\begin_inset Quotes xrd
+\end_inset
+
+ готовність до командної праці
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="3in">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Виконавець:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+студент групи ПА-22-2
+\begin_inset Newline newline
+\end_inset
+
+Хорсун Дмитро Владиславович
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Перевірив:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+____________________ ____________________ 
+\begin_inset Quotes xld
+\end_inset
+
+__
+\begin_inset Quotes xrd
+\end_inset
+
+__________20 р.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Дніпро
+\begin_inset Newline newline
+\end_inset
+
+2022
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\backslash
+addtocounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Вступ
+\end_layout
+
+\begin_layout Standard
+\noindent
+Дружний і добре працюючий колектив — мрія будь-якого керівника, оскільки
+ організація командної роботи займає великий відсоток його часу.
+ Однак найчастіше це не рятує компанію від напруженості, конфліктів і, як
+ результат, зниження якості праці.
+ Головний критерій організації успішної командної роботи — це, безумовно,
+ якісне рішення трудових завдань.
+\end_layout
+
+\begin_layout Standard
+Ефективність будь-якої діяльності оцінюється за такою формулою: 
+\begin_inset Formula 
+\[
+\text{продуктивність}\times\text{якість}\times\text{витрати ресурсів}\times\text{надійність}
+\]
+
+\end_inset
+
+Вважається, що командна робота є більш ефективною, ніж робота поодинці.
+ Однак при цьому вона викликає набагато більше негативу і побоювань.
+ Цей феномен пов'язаний не з недоліками командної роботи як такої, а з невмінням
+ її організувати.
+\end_layout
+
+\begin_layout Section
+Що таке команда?
+\end_layout
+
+\begin_layout Standard
+\noindent
+Організація ефективної командної роботи починається з організації гарної
+ команди.
+ Але не всяка група людей, що працюють разом, може називатися командою.
+ Команда — це невелике число людей з взаємодоповнюючими вміннями, пов'язаних
+ єдиним задумом, що прагнуть до загальних цілей і розділяють відповідальність
+ за їх досягнення.
+\end_layout
+
+\begin_layout Standard
+У команді інтереси кожного вторинні.
+ Кожен член команди повинен мати високий професійний рівень, вміти приймати
+ рішення і ефективно взаємодіяти з іншими людьми.
+\end_layout
+
+\begin_layout Standard
+Члени команди залежать один від одного, точніше, робота одного залежить
+ від роботи іншого.
+ Тому в команді мають місце рівноправність і постійний обмін інформацією.
+ Члени команди розділяють відповідальність за досягнення мети один з одним.
+ Існує такий феномен як командна підзвітність — це певні обіцянки, які породжуют
+ь довіру і гарантують досягнення результату.
+\end_layout
+
+\begin_layout Standard
+На превеликий жаль менеджерів, неможливо взяти і моментально зібрати хорошу
+ команду.
+ Для цього група спільно працюючих людей повинна пройти в своєму розвитку
+ ряд важливих етапів.
+ Ось як відбувається організація команди:
+\end_layout
+
+\begin_layout Description
+Адаптація — відбувається взаємне інформування та аналіз завдань.
+ Люди обережно спілкуються один з одним, утворюються пари і трійки.
+ Вони нібито перевіряють один одного і виробляють норми і принципи взаємоприйнят
+ої поведінки, наслідком чого є деяка настороженість у колективі.
+ Ефективність командної роботи на даному етапі низька.
+\end_layout
+
+\begin_layout Description
+Групування — створюються невеликі підгрупи за симпатіями та інтересам.
+ Виявляються розбіжності особистої мотивації і цілей командної роботи.
+ Члени команди можуть протидіяти вимогам завдання — таким чином визначається
+ рівень дозволеної емоційної експресії.
+ Наприклад, секретар жбурляє паперу і дивиться, як на це відреагують.
+\end_layout
+
+\begin_layout Description
+Кооперація — члени команди усвідомлюють своє бажання працювати над вирішенням
+ завдання.
+ Це відкрите і конструктивне спілкування вперше виникає разом із займенником
+ 
+\begin_inset Quotes xld
+\end_inset
+
+ми
+\begin_inset Quotes xrd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+Нормування
+\begin_inset space ~
+\end_inset
+
+діяльності — розробляються норми і принципи взаємодії в команді.
+ Виникає відчуття довіри, міжособистісне спілкування знаходиться на вищому
+ рівні.
+\end_layout
+
+\begin_layout Description
+Функціонування — це стадія прийняття рішень для конструктивного вирішення
+ завдань.
+ У кожного з'являється своя роль.
+ Команда відкрито виявляє і вирішує конфлікти.
+ Тепер уже можна говорити про справжню команду, що має єдину для всіх членів
+ колективу мету, спільну діяльність по досягненню цих цілей, наявність хорошої
+ і адекватної організаційної структури, хороший психологічний клімат.
+ Організація ефективної командної роботи на цьому етапі може вважатися успішно
+ завершеною.
+\end_layout
+
+\begin_layout Standard
+Психологи описують ряд феноменів, що виникають у групі і мають відношення
+ до ефективності командної роботи:
+\end_layout
+
+\begin_layout Description
+ефект
+\begin_inset space ~
+\end_inset
+
+обсягу — результати діяльності залежать від чисельності групи (ефективність
+ дуже маленької або дуже великої групи буде меншою);
+\end_layout
+
+\begin_layout Description
+ефект
+\begin_inset space ~
+\end_inset
+
+якісного
+\begin_inset space ~
+\end_inset
+
+складу
+\begin_inset space ~
+\end_inset
+
+групи — результати командної роботи залежать від однорідності-різнорідності
+ складу (краще за всіх спрацюється група, члени якої різної статі і віку,
+ але практично однакові за соціальними характеристиками);
+\end_layout
+
+\begin_layout Description
+конформізм — поведінка або переконання членів групи змінюються в результаті
+ реального чи уявного тиску групи.
+ Роль громадської думки вельми висока для кожного члена команди, і кожен
+ поважає принципи, вироблені спільними зусиллями;
+\end_layout
+
+\begin_layout Description
+деіндивідуалізація — втрата самосвідомості і боязнь оцінки в ситуаціях анонімнос
+ті, що не концентрують увагу на конкретній людині;
+\end_layout
+
+\begin_layout Description
+феномен
+\begin_inset space ~
+\end_inset
+
+зсуву
+\begin_inset space ~
+\end_inset
+
+ризику — група приймає або найбільш, або найменш ризиковане рішення, ніж
+ брали б окремо її члени;
+\end_layout
+
+\begin_layout Description
+\begin_inset Quotes xld
+\end_inset
+
+огруплене
+\begin_inset Quotes xrd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+мислення — всі члени групи зайняті виключно пошуком рішення, яке влаштує
+ кожного, і відкидають досить реалістичні варіанти;
+\end_layout
+
+\begin_layout Description
+соціальні
+\begin_inset space ~
+\end_inset
+
+лінощі — якщо відповідальність розділяється на членів групи, то всі починають
+ працювати абияк.
+\end_layout
+
+\begin_layout Standard
+Можна говорити про деякі ознаки організації гарної команди.
+ У ній учасники вважають себе частиною робочої групи.
+ Дотримується баланс між ефективною командною роботою і співпрацею.
+ Члени групи почувають себе компетентними, виконують завдання самостійно
+ і несуть відповідальність за їх виконання.
+ Між ними йде безперервна дискусія для покращення співпраці та підвищення
+ ефективності командної роботи.
+ Кожна людина вільно пропонує свої ідеї і критикує інших.
+\end_layout
+
+\begin_layout Standard
+Члени команди знають про завдання один одного і мають уявлення про таланти
+ і здібності кожного, що означає інтерес і повагу один до одного.
+ У повітрі панує атмосфера відкритої та конструктивної комунікації, всі
+ йдуть на відкритий діалог.
+ Інформація постійно, швидко і цілеспрямовано передається один одному.
+ Мають місце відкритість зовнішньому світу і організація конструктивного
+ співробітництва з іншими командами.
+\end_layout
+
+\begin_layout Section
+Натхненники та критики
+\end_layout
+
+\begin_layout Standard
+\noindent
+У хорошій команді кожен її член відчуває відповідність між тим, що він дав
+ групі і тим, що він від неї отримав.
+ Це досягається за рахунок того, що кожна людина займає своє оптимальне
+ місце в команді.
+ Виконуючи свою функцію на цьому місці, вона відчуває баланс між тим, що
+ вона може, й тим, що вона хоче.
+\end_layout
+
+\begin_layout Standard
+Дослідження довели, що для організації найбільш ефективної командної роботи
+ в групі повинні бути присутніми дев'ять ролей.
+ Їх не обов'язково повинні грати дев'ять осіб — деякі члени команди можуть
+ поєднувати виконання певних функцій, граючи не одну роль, а дві чи більше.
+ Ось ці ролі:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Quotes xld
+\end_inset
+
+Робоча
+\begin_inset space ~
+\end_inset
+
+бджілка
+\begin_inset Quotes xrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Це дисциплінована і дуже надійна людина.
+ Вона сумлінна у міжособистісних зобов'язаннях завдяки постійному внутрішньому
+ контролю.
+ Вона практичний, довірлива і терпима по відношенню до колег, консервативна
+ і внутрішньо бесконфліктна.
+ Працює на команду, не зосереджуючись на своїх цілях.
+ Діє за принципом: 
+\begin_inset Quotes xld
+\end_inset
+
+робота — це моральний обов'язок
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ Саме 
+\begin_inset Quotes xld
+\end_inset
+
+робочі бджілки
+\begin_inset Quotes xrd
+\end_inset
+
+ перетворюють прийняті рішення і стратегії командної роботи в конкретні
+ завдання — сортують мети і вибудовують логіку їх досягнення.
+ Але принципи організації ефективної командної роботи такі, що команди,
+ що складаються цілком з 
+\begin_inset Quotes xld
+\end_inset
+
+робочих бджілок
+\begin_inset Quotes xrd
+\end_inset
+
+ (навіть якщо у них дуже високий рівень інтелекту) не досягають результатів
+ вище середніх, так як у них немає цінних ідей і вони не володіють гнучкістю
+ — потрапляють у глухий кут при необхідності змін.
+ 
+\end_layout
+
+\begin_layout Subsection
+«Керівник»
+\end_layout
+
+\begin_layout Standard
+Це емоційно стійка, спокійна і впевнена у собі людина.
+ Для неї характерна організація розробки стратегічного бачення, інтеграція
+ і координація зусиль команди по досягненню цілей.
+ Здатна знайти для кожного відповідну роль в команді.
+ Вона може без упередження вислухати, розглянути і оцінити всі пропозиції,
+ в результаті чого формується думка всієї групи.
+ Замість творчого мислення у неї сильний характер.
+\end_layout
+
+\begin_layout Standard
+Вона сильно мотивована на досягнення результату, має середній рівень інтелекту,
+ так як люди, що володіють занадто високим інтелектом, йдуть в зайву рефлексію.
+ Добре бачить сильні і слабкі сторони інших, хороший комунікатор, вміє слухати.
+ Серед її недоліків можна відзначити те, що вона схильна потрапляти під
+ вплив інших людей або може бути негнучкою в оцінках.
+ Вона не вміє заражати ентузіазмом і ефективно керує лише в стабільних умовах.
+\end_layout
+
+\begin_layout Subsection
+«Мотиватор»
+\end_layout
+
+\begin_layout Standard
+Це дуже енергійна людина.
+ Вона не дуже ладнає з керівниками, і коли їй стає нудно, її «з'їдає начальник».
+ Вона неспокійна, схильна до домінування, динамічна, володіє напором і сміливіст
+ю для подолання перешкод (вони її тонізують).
+ Для неї життя — це виклик.
+ Якщо керівник — соціальний лідер командної роботи, то «мотиватор» — лідер
+ цільової, що відповідає за окремий проект.
+ Вона швидко засвоює інформацію, позбавлена сором'язливості і боязкості,
+ схильна до розчарувань.
+ В якості недоліків можна відзначити її дратівливість, нетерплячість, схильність
+ до невдоволення.
+\end_layout
+
+\begin_layout Subsection
+«Генератор ідей»
+\end_layout
+
+\begin_layout Standard
+Це креативна, обдарована уявою, здатна вирішувати складні завдання творча
+ людина.
+ Її більше хвилює образ цілком, ніж його деталі.
+ Їй підвладна організація розробки нових проектів, але ось шляхи реалізації
+ цих проектів будуть розробляти інші.
+ Такі люди довірливі і незахищені від нападок соціуму.
+\end_layout
+
+\begin_layout Standard
+Вони можуть здійснювати дурні помилки, оскільки багато часу приділяють творчої
+ енергії, ідеям, але не враховують потреби групи або взагалі не сприяють
+ досягненню цілей команди.
+ Їй потрібна підтримка керівництва.
+ Якщо генератора ідей критикують, він може взагалі відмовитися від співпраці.
+ У цьому і є його недолік — організація ефективної співпраці не дуже його
+ турбує.
+\end_layout
+
+\begin_layout Subsection
+«Постачальник»
+\end_layout
+
+\begin_layout Standard
+Це дослідник ресурсів, екстраверт, повний ентузіазму.
+ Він комунікабельний, добре розвиває контакти і використовує інших людей
+ в своїх інтересах, вміло спрямовує ділову розмову до сприятливого для себе
+ завершення.
+ Він йде з групи і приносить інформацію, ідеї, матеріали, потрібні для групи.
+\end_layout
+
+\begin_layout Standard
+Його недоліки: в одиночній роботі він неефективний, йому потрібне захоплення
+ оточуючих.
+ Може витрачати час на справи, що не належать до мети.
+ Він не працездатний в монотонних і одноманітних ситуаціях.
+ Саме тому він часто свариться з робочими бджілками.
+ Він охороняє командну роботу від застою і дає групі відчуття реальності.
+\end_layout
+
+\begin_layout Subsection
+«Критик»
+\end_layout
+
+\begin_layout Standard
+Це людина, яка здійснює моніторинг та аналіз того, що відбувається.
+ Для неї важливіша правильна організація праці, важливіше завдання, ніж
+ люди.
+ Вона дуже розважлива і розумна, добре прогнозує ситуацію.
+ Її критика не ображає людей, оскільки будується за принципом 
+\begin_inset Quotes xld
+\end_inset
+
+нічого особистого
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ Це людина стратегічно мисляча і прониклива, вона розглядає всі варіанти
+ і робить безпомилкові висновки.
+ Її основна функція — це оцінка ідей.
+ Вона здатна обгрунтувати свою позицію і бачить сильні і слабкі сторони
+ будь-якого проекту.
+\end_layout
+
+\begin_layout Subsection
+«Аналітик»
+\end_layout
+
+\begin_layout Standard
+Враховує всі фактори і веде команду до прийняття правильного рішення.
+ Його недоліки полягають у тому, що він мало уваги приділяє людям і не здатний
+ мотивувати, в ньому відсутні теплота і сердечність.
+ Через підвищену увагу до деталей він може втратити стратегічну мету.
+ Аналітики не проявляють себе, тому їх не варто збирати разом.
+ Найкраще вони взаємодіють з керівником, з «мотиватором» і з генератором
+ ідей, тому організація їх роботи повинна йти саме в цьому напрямку.
+\end_layout
+
+\begin_layout Subsection
+«Натхненник»
+\end_layout
+
+\begin_layout Standard
+Ця людина — «душа компанії», командний гравець.
+ Чуйний, спокійний, сприйнятливий, дипломатичний, здатний вислухати іншого.
+ Він регулює конфлікти, заспокоює — загалом, забезпечує добре моральний
+ стан команди.
+ Він здатний надати делікатний вплив на конфліктуючих, знайти точки дотику
+ для ворогів, дати команді додаткові сили в період кризи.
+\end_layout
+
+\begin_layout Standard
+Усім членам команди легко з ним взаємодіяти.
+ Як недоліки можна відзначити те, що натхненники нерішучі, нездатні до дій
+ та схильні до впливу на інших людей.
+ Для них завдання — ніщо, головне — команда.
+ Нездатні керувати, найкраще працюють з мотиватором.
+\end_layout
+
+\begin_layout Subsection
+«Контролер»
+\end_layout
+
+\begin_layout Standard
+Це завершувач проектів.
+ Він організований, добросовісний, дисциплінований, переживає за результат.
+ Вміє доводити будь-яку справу до повного завершення.
+ Контролер здатний до напруженої ефективній роботі протягом тривалого періоду.
+\end_layout
+
+\begin_layout Standard
+Погано, якщо його діяльність супроводжується перфекционизмом — тоді завершення
+ може надовго відкладатися.
+ Контролер може бути прискіпливим по відношенню до інших.
+ Він неохоче делегує повноваження.
+ Добре працює із постачальниками, генераторами ідей і мотиваторами — ті
+ пропонують ідеї, а контролери втілюють їх у життя.
+ Користуються повагою у робочих бджілок.
+ Найгірше взаємодіють з аналітиками.
+\end_layout
+
+\begin_layout Subsection
+«Спеціаліст»
+\end_layout
+
+\begin_layout Standard
+Це член команди, що володіє рідкісними знаннями та навичками.
+ Експерт у якій-небудь вузькій професійній області.
+ Потрібен команді при вирішенні дуже спеціалізованого завдання.
+ Іншими сприймається критично, тому здається занудою.
+ Організація праці цієї людини характерна тим, що вона може захоплюватися
+ дрібними деталями на шкоду головної мети.
+\end_layout
+
+\begin_layout Standard
+Все це не означає, що в команді обов'язково повинні бути представлені всі
+ дев'ять осіб.
+ Але залежно від розв'язуваної задачі потрібен певний набір ролей, який
+ дозволить уникнути конкуренції між схожими ролями і добитися результату
+ з мінімальними витратами.
+\end_layout
+
+\begin_layout Section
+Як змусити команду працювати ефективно?
+\end_layout
+
+\begin_layout Standard
+\noindent
+Домогтися високих показників якості діяльності складно навіть від однієї
+ людини.
+ Існує ряд помилок, які знижують ефективність діяльності команди:
+\end_layout
+
+\begin_layout Itemize
+невідповідність керівника, команди і типу розв'язуваної задачі;
+\end_layout
+
+\begin_layout Itemize
+невдалий підбір працівників у команду;
+\end_layout
+
+\begin_layout Itemize
+поганий соціально-психологічний клімат;
+\end_layout
+
+\begin_layout Itemize
+відсутність чіткої мети або критеріїв її досягнення;
+\end_layout
+
+\begin_layout Itemize
+низька результативність командної роботи.
+\end_layout
+
+\begin_layout Standard
+Ці помилки є найбільш поширеними, але їх можна уникнути.
+ Мотивація роботи практично будь-якої людини складається з трьох складових:
+ оплата, інтерес і соціальна значимість.
+ І якщо перші два елементи у всіх на слуху, то про останній часто забувають.
+ Але це неправильно — члени команди повинні бути переконані, що виконують
+ важливий проект, реалізація якого принесе компанії користь.
+ Це повинно неодноразово обумовлюватися і показуватися на зустрічах менеджменту
+ та колективу.
+\end_layout
+
+\begin_layout Standard
+І все-таки основа будь-якої команди — це люди.
+ З одного боку, вони повинні володіти досить-таки обширними додатковими
+ знаннями і навичками, необхідними для реалізації поставленої мети.
+ А з іншого — вони повинні бути легконавчані, оскільки командна робота сама
+ по собі представляє освітній процес, в ході якого кваліфікація працівника
+ зростає.
+\end_layout
+
+\begin_layout Standard
+Особливу роль серед працівників відіграє керівник команди.
+ Грамотний керівник, крім управління, планування і контролю, повинен організуват
+и і мотивувати трудовий колектив для спільної діяльності, а також розвивати
+ в ньому самоврядування.
+ Через особливості людського фактора це часто буває складніше, ніж виконання
+ інших його обов'язків: машина працює стільки, на скільки запрограмована,
+ а людина — завжди по-різному.
+\end_layout
+
+\begin_layout Standard
+Найголовніший критерій при виборі керівника — його чітке уявлення про організаці
+ю роботи команди.
+ Основний механізм впливу — негативний і позитивний зворотний зв'язок.
+ Крім того, він представляє команду у взаємодії з оточуючими і усуває зовнішні
+ перешкоди.
+ Хорошим керівником можна вважати того, чия робота як члена команди не є
+ очевидною для інших учасників.
+\end_layout
+
+\begin_layout Standard
+Як вже було сказано вище, на початкових етапах формування команди психологічний
+ клімат всередині неї відрізняється підвищеною конфліктогенністю.
+ Вищому керівництву необхідно це враховувати і лояльно ставитися до колективу
+ в цей кризовий період.
+ Зменшити кількість зіткнень можна за допомогою тренінгів, мозкових штурмів
+ і роботи над цікавими проектами, в ході яких команда відчує себе єдиним
+ цілим.
+\end_layout
+
+\begin_layout Standard
+Для того, щоб зменшити кількість конфліктів команді необхідні чіткі правила
+ і принципи роботи.
+ Причому ці конвенції повинні бути сформульовані і прийняті самою командою
+ зсередини.
+ Порушення цих правил повинно каратися, а не спускатися на гальмах.
+\end_layout
+
+\begin_layout Standard
+Як правило, колектив вперше відчуває себе командою лише тоді, коли командна
+ робота приносить перший успіх.
+ Тому найбільш оптимальною першою метою для команди буде мета складна, але
+ досяжна за порівняно невеликий проміжок часу.
+ Це істотно підніме командний дух.
+\end_layout
+
+\begin_layout Standard
+Буває так, що команда, надмірно занурившись в роботу над проектом, втрачає
+ зв'язок з реальністю, що може негативно позначитися на ефективності її
+ діяльності.
+ Для того, щоб цього не відбувалося керівник повинен організувати приплив
+ зовнішньої інформації до команди і від неї.
+ Це допоможе її учасникам залишатися в тонусі.
+\end_layout
+
+\begin_layout Standard
+Як вже було написано вище, особливу роль відіграє організація групової взаємодії
+ в командній роботі.
+ Для інтенсивного особистого контакту між учасниками колективу необхідні
+ час і місце, де команда могла б спокійно працювати і спілкуватися.
+ Також корисні будуть зустрічі і в неробочий час — особливо в ситуації кризи.
+\end_layout
+
+\begin_layout Section
+Висновки
+\end_layout
+
+\begin_layout Standard
+\noindent
+Таким чином, для підтримки ефективної командної роботи необхідно наступне:
+ визначення вимог до керівника колективу та його пошук на основі цих вимог,
+ знання обліку принципів формування високоефективної команди, розуміння
+ стадій розвитку колективу і врахування обмежень командної роботи.
+\end_layout
+
+\begin_layout Standard
+Врахувати всі тонкощі найчастіше буває неможливо.
+ У будь-якій командній роботі присутні слабкі місця, і лише у успішної команди
+ ці слабкі місця компенсуються сильними сторонами.
+ У будь-якому випадку, робота в команді — це ризик.
+ Але хто не ризикує, той не п'є шампанського і не досягає найвищих вершин.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{landscape}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+abc
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fbox{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt" special="c">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Detection Methods & Supervised /Semi-supervised/ Unsupervised & Technique
+ Used & Applications & Technology 
+\backslash
+
+\backslash
+ Statistical & & Gaussian-based detection & Online anomaly detection & Conventio
+nal data centres 
+\backslash
+
+\backslash
+ Statistical & & Gaussian-based detection & General & General 
+\backslash
+
+\backslash
+ Statistical & & Regression analysis & Globally-distributed commercial applicati
+ons & Distributed, Web-based, Application 
+\backslash
+& System metrics 
+\backslash
+
+\backslash
+ Statistical & & Regression analysis & Web applications & Enterprise web
+ applications and conventional data centre 
+\backslash
+
+\backslash
+ Statistical & & Correlation & Complex enterprise online applications &
+ Distributed System 
+\backslash
+
+\backslash
+ Statistical & & Correlation & Orleans system and distributed cloud computing
+ services & Virtualized, cloud computing and distributed system (Orleans
+ system) 
+\backslash
+
+\backslash
+ Statistical & & Correlation & Hadoop, Olio and RUBiS & Virtualized cloud
+ computing and distributed systems.
+ 
+\backslash
+
+\backslash
+ ĘMachine learning & Supervised & Bayesian classification & Online application
+ & IBM system S-distributed stream processing cluster 
+\backslash
+
+\backslash
+ Machine learning & Unsupervised & Neighbour-based technique (Local Outlier
+ Factor algorithm) & General & Cloud Computing system 
+\backslash
+
+\backslash
+ Machine learning & Semi-supervised & Principle component analysis and Semi-supe
+rvised Decision-tree
+\backslash
+_ & Institute-wide cloud computing environment & Cloud Computing 
+\backslash
+
+\backslash
+ Statistical & & Regression curve fitting the service time-adapted cumulative
+ distributed function & Online application service & Platform and configuration
+ agnostic 
+\backslash
+
+\backslash
+ & & & & 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{landscape}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename mathis_3.jpg
+	lyxscale 30
+	width 100text%
+	height 100theight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+test
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\start_of_appendix
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Горкавий, В.
+ К.
+ Статистика [Текст]: навч.
+ посіб.
+ / В.
+ К.
+ Горкавий.
+ – 2-е вид., перероб.
+ і доп.
+ – К.
+ : Алерта, 2012.
+ – 608 с.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+Форсайт, Д.
+ Компьютерное зрение.
+ Современный подход [Текст]: пер.
+ с англ.
+ / Д. Форсайт, Ж. Понс.
+ – М.
+ : «Вильямс», 2004.
+ – 928 с.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+Ахо, А.
+ Структуры данных и алгоритмы [Текст] / А.
+ Ахо, Дж.
+ Хопкрофт, Дж.
+ Ульман – К: «Вильямс», 2010.
+ – 400 c.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+Вирт, Н.
+ Алгоритмы и структуры данных [Текст] / Н.
+ Вирт.
+ — М.: ДМК, 2010.
+ – 272с.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Сердюк, М.Є.
+ Автоматизована система синтезу зображень з безшовним накладенням фрагментів
+ [Текст] / М.Є.
+ Сердюк, М.О.
+ Боровик // Питання прикладної математики і математичного моделювання.
+ – Д.
+ : Ліра, 2017.
+ – С.199-206.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+Murali, S.
+ Shadow Detection and Removal from a Single Image Using LAB Color Space
+ / S. Murali, V.K.
+ Govindan // Cybernetics and Information Technologies.
+ – 2013.
+ – Vol.
+ 13, № 1.
+ – P.95-103.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+Диференціальні рівняння [Текст]: практикум з вищ.
+ математики із застосув.
+ тест.
+ технологій / уклад.
+ В.
+ Л.
+ Волошко, М.
+ Є.
+ Сердюк.
+ — Д.
+ : РВВ ДНУ, 2012.
+ — 79 с.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+Інформатика [Електронний ресурс] : метод.
+ рек.
+ до викон.
+ лаборатор.
+ робіт з розд.
+ «Алгоритмізація та програмування задач, що містять одновимірні масиви та
+ функції користувача засобами Visual Basic (VB)» для студ.
+ усіх напрямів підготов.
+ бакалаврів денної та заочної форм навч.
+ / уклад.
+ О.
+ Л.
+ Сєдих, С.
+ В.
+ Маковецька.
+ — К.
+ : НУХТ, 2012.
+ — 58 с.
+ – Режим доступу: http://library.nuft.edu.ua/ebook/file/50.06.pdf .
+ – Заголовок з екрана.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+Image Shadow Removal in Mathematica [Electronic resource].
+ – Access mode: http://mathematica.stackexchange.com/questions/ 7414/image-shadow-
+removal-in-mathematica.
+ – Title from the screen.
+ 
+\end_layout
+
+\end_body
+\end_document

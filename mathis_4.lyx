@@ -1,0 +1,360 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\use_default_options true
+\maintain_unincluded_children false
+\language ukrainian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style russian
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+П'єр Ферма
+\end_layout
+
+\begin_layout Subtitle
+життя і творчість
+\end_layout
+
+\begin_layout Author
+Хорсун Дмитро
+\end_layout
+
+\begin_layout Institute
+ДНУ ім.
+ Олеся Гончара
+\end_layout
+
+\begin_layout TitleGraphic
+\begin_inset Graphics
+	filename mathis_4_1.png
+	lyxscale 30
+	height 40pheight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Біографія П'єра Ферма
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Народився 17 серпня 1601 р.
+ у Бомон-де-Ломань, Франція
+\end_layout
+
+\begin_layout Itemize
+Батько - багатий торговець і чиновник Домінік Ферма
+\end_layout
+
+\begin_layout Itemize
+Мати - Клер де Лонг
+\end_layout
+
+\begin_layout Itemize
+Один брат
+\end_layout
+
+\begin_layout Itemize
+Дві сестри
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Дитинство, юність і освіта
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Навчався в Наварському коледжі
+\end_layout
+
+\begin_layout Itemize
+Отримував юридичну освіту в Тулузі, Бордо і Орлеані
+\end_layout
+
+\begin_layout Itemize
+У 30-річному віці став дипломованим юристом
+\end_layout
+
+\begin_layout Itemize
+Викупив пост королівського радника парламенту в Тулузі
+\end_layout
+
+\begin_layout Itemize
+Став членом Палати едиктів в 1648 р.
+\end_layout
+
+\begin_layout Itemize
+Мав багато вільного часу, і тому захопився математикою
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Наукова діяльність
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Написав трактат 
+\begin_inset Quotes xld
+\end_inset
+
+Введення до теорії плоских і просторових місць
+\begin_inset Quotes xrd
+\end_inset
+
+ в 35 років, де детально виклав своє бачення на аналітичну геометрію.
+\end_layout
+
+\begin_layout Itemize
+В 36 років сформулював свою знамениту 
+\begin_inset Quotes xld
+\end_inset
+
+Велику теорему
+\begin_inset Quotes xrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Через 3 роки сформулював 
+\begin_inset Quotes xld
+\end_inset
+
+Малу теорему Ферма
+\begin_inset Quotes xrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Вів переписку з найвідомішими математиками, включаючи Мерсенна і Паскаля,
+ з яким він розмовляв щодо теорії ймовірностей
+\end_layout
+
+\begin_layout Itemize
+В 1637 р.
+ в жорсткій формі розкритикував декартову «Діоптріка»
+\end_layout
+
+\begin_layout Itemize
+Раніше Ньютона зумів використати диференціальні методи для проведення дотичних
+ і обчислення площ
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Наукова діяльність
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cтворив теорію чисел
+\end_layout
+
+\begin_layout Itemize
+Розробив метод систематичного знаходження всіх дільників числа
+\end_layout
+
+\begin_layout Itemize
+Сформулював теорему про можливість подання довільного числа сумою не більше
+ 4-х квадратів
+\end_layout
+
+\begin_layout Itemize
+Розробив загальний закон диференціювання дробових ступенів
+\end_layout
+
+\begin_layout Itemize
+Сформулював метод для проведення дотичних до довільної кривій алгебри
+\end_layout
+
+\begin_layout Itemize
+Описав принцип знаходження довжини довільної кривої
+\end_layout
+
+\begin_layout Itemize
+Сформулював основи теорії ймовірностей
+\end_layout
+
+\begin_layout Itemize
+Вільно володів 6 мовами: французькою, латинською, окситанською, грецькою,
+ італійською та іспанською
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Особисте життя, останні роки і смерть
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+У 30-річному віці П'єр взяв за дружину двоюрідну тітку по материнській лінії
+ по імені Луїза де Лонг
+\end_layout
+
+\begin_layout Itemize
+У цьому шлюбі народилося п'ятеро дітей: Клеман-Самуель, Жан, Клер, Кетрін
+ і Луїза
+\end_layout
+
+\begin_layout Itemize
+У 1652 р Ферма заразився чумою
+\end_layout
+
+\begin_layout Itemize
+Помер 12 січня 1665 року в віці 63 років
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

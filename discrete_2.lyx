@@ -789,6 +789,9 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
+\begin_inset Preview
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -951,6 +954,11 @@ path (3)  edge [loop above] node {} (3)
 
 \backslash
 end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4195,6 +4203,9 @@ end{tikzpicture}
 \end_layout
 
 \begin_layout Standard
+\begin_inset Preview
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -4317,12 +4328,20 @@ end{tikzpicture}
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Formula $R_{4}\coloneqq\left\{ \left\langle a,b\right\rangle ,\left\langle d,e\right\rangle \right\} $
 \end_inset
 
 
 \end_layout
+
+\begin_layout Standard
+\begin_inset Preview
 
 \begin_layout Standard
 \begin_inset ERT
@@ -4412,6 +4431,11 @@ end{tikzpicture}
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Formula $\left\Vert R_{5}\right\Vert =\left\Vert R_{1}\circ R_{2}\right\Vert =\left\Vert R_{1}\right\Vert \cdot\left\Vert R_{2}\right\Vert =\left(\begin{array}{ccccc}
 0 & 1 & 0 & 1 & 0\\
@@ -4443,6 +4467,9 @@ end{tikzpicture}
 
 
 \end_layout
+
+\begin_layout Standard
+\begin_inset Preview
 
 \begin_layout Standard
 \begin_inset ERT
@@ -4530,6 +4557,11 @@ path (a)  edge node {} (c)
 
 \backslash
 end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
