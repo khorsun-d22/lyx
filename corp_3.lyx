@@ -9,17 +9,13 @@
 \usepackage{
 	adjustbox,
 	indentfirst,
-	lipsum,
-	makecell,
-	pdflscape,
 }
-
-\usepackage[author={Хорсун Дмитро}]{pdfcomment}
 
 \usepackage{titlesec}
 
 \titleformat*{\section}{\fontsize{16}{20}\fontseries{b}\selectfont\centering}
 \titlespacing*{\section}{0pt}{0pt}{6pt}
+\newcommand{\sectionbreak}{\clearpage}
 
 \titleformat*{\subsection}{\fontsize{15}{18}\fontseries{b}\selectfont}
 \titlespacing*{\subsection}{0pt}{6pt}{6pt}
@@ -31,7 +27,7 @@
 \end_preamble
 \use_default_options true
 \begin_modules
-customHeadersFooters
+pdfcomment
 \end_modules
 \maintain_unincluded_children false
 \language ukrainian
@@ -48,16 +44,16 @@ customHeadersFooters
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
+\use_microtype true
+\use_dash_ligatures false
 \graphics default
-\default_output_format default
-\output_sync 1
+\default_output_format pdf5
+\output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize 14
 \spacing other 1.5
-\use_hyperref true
+\use_hyperref false
 \pdf_title "Назва українською мовою"
 \pdf_author "Хорсун Дмитро Владиславович"
 \pdf_subject "Корпоративне середовище та комунікаційні технології"
@@ -136,7 +132,7 @@ begin{titlepage}
 
 \end_layout
 
-\begin_layout Address
+\begin_layout Standard
 \noindent
 \align center
 Міністерство освіти і науки України
@@ -340,18 +336,24 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Section*
 Вступ
 \end_layout
 
 \begin_layout Standard
-\noindent
 Дружний і добре працюючий колектив — мрія будь-якого керівника, оскільки
  організація командної роботи займає великий відсоток його часу.
  Однак найчастіше це не рятує компанію від напруженості, конфліктів і, як
  результат, зниження якості праці.
- Головний критерій організації успішної командної роботи — це, безумовно,
- якісне рішення трудових завдань.
+ Головний критерій організації успішної командної роботи
+\begin_inset space ~
+\end_inset
+
+—
+\begin_inset space ~
+\end_inset
+
+це, безумовно, якісне рішення трудових завдань.
 \end_layout
 
 \begin_layout Standard
@@ -374,7 +376,6 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-\noindent
 Організація ефективної командної роботи починається з організації гарної
  команди.
  Але не всяка група людей, що працюють разом, може називатися командою.
@@ -461,84 +462,18 @@ LatexCommand tableofcontents
 
 \begin_layout Standard
 Психологи описують ряд феноменів, що виникають у групі і мають відношення
- до ефективності командної роботи:
-\end_layout
+ до ефективності командної роботи (див.
+ таблицю 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:phenomena"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Description
-ефект
-\begin_inset space ~
 \end_inset
 
-обсягу — результати діяльності залежать від чисельності групи (ефективність
- дуже маленької або дуже великої групи буде меншою);
-\end_layout
-
-\begin_layout Description
-ефект
-\begin_inset space ~
-\end_inset
-
-якісного
-\begin_inset space ~
-\end_inset
-
-складу
-\begin_inset space ~
-\end_inset
-
-групи — результати командної роботи залежать від однорідності-різнорідності
- складу (краще за всіх спрацюється група, члени якої різної статі і віку,
- але практично однакові за соціальними характеристиками);
-\end_layout
-
-\begin_layout Description
-конформізм — поведінка або переконання членів групи змінюються в результаті
- реального чи уявного тиску групи.
- Роль громадської думки вельми висока для кожного члена команди, і кожен
- поважає принципи, вироблені спільними зусиллями;
-\end_layout
-
-\begin_layout Description
-деіндивідуалізація — втрата самосвідомості і боязнь оцінки в ситуаціях анонімнос
-ті, що не концентрують увагу на конкретній людині;
-\end_layout
-
-\begin_layout Description
-феномен
-\begin_inset space ~
-\end_inset
-
-зсуву
-\begin_inset space ~
-\end_inset
-
-ризику — група приймає або найбільш, або найменш ризиковане рішення, ніж
- брали б окремо її члени;
-\end_layout
-
-\begin_layout Description
-\begin_inset Quotes xld
-\end_inset
-
-огруплене
-\begin_inset Quotes xrd
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-мислення — всі члени групи зайняті виключно пошуком рішення, яке влаштує
- кожного, і відкидають досить реалістичні варіанти;
-\end_layout
-
-\begin_layout Description
-соціальні
-\begin_inset space ~
-\end_inset
-
-лінощі — якщо відповідальність розділяється на членів групи, то всі починають
- працювати абияк.
+).
 \end_layout
 
 \begin_layout Standard
@@ -562,12 +497,49 @@ LatexCommand tableofcontents
  співробітництва з іншими командами.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename corp_3_1.png
+	lyxscale 30
+	width 100text%
+	height 100text%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+командна робота
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Натхненники та критики
 \end_layout
 
 \begin_layout Standard
-\noindent
 У хорошій команді кожен її член відчуває відповідність між тим, що він дав
  групі і тим, що він від неї отримав.
  Це досягається за рахунок того, що кожна людина займає своє оптимальне
@@ -833,7 +805,6 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-\noindent
 Домогтися високих показників якості діяльності складно навіть від однієї
  людини.
  Існує ряд помилок, які знижують ефективність діяльності команди:
@@ -863,7 +834,17 @@ LatexCommand tableofcontents
 Ці помилки є найбільш поширеними, але їх можна уникнути.
  Мотивація роботи практично будь-якої людини складається з трьох складових:
  оплата, інтерес і соціальна значимість.
- І якщо перші два елементи у всіх на слуху, то про останній часто забувають.
+ І якщо перші два елементи у всіх на слуху, то про останній часто забувають
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:phenomena"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  Але це неправильно — члени команди повинні бути переконані, що виконують
  важливий проект, реалізація якого принесе компанії користь.
  Це повинно неодноразово обумовлюватися і показуватися на зустрічах менеджменту
@@ -886,7 +867,17 @@ LatexCommand tableofcontents
  в ньому самоврядування.
  Через особливості людського фактора це часто буває складніше, ніж виконання
  інших його обов'язків: машина працює стільки, на скільки запрограмована,
- а людина — завжди по-різному.
+ а людина — завжди по-різному
+\begin_inset CommandInset ref
+LatexCommand labelonly
+reference "[1]"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -942,12 +933,11 @@ LatexCommand tableofcontents
  Також корисні будуть зустрічі і в неробочий час — особливо в ситуації кризи.
 \end_layout
 
-\begin_layout Section
+\begin_layout Section*
 Висновки
 \end_layout
 
 \begin_layout Standard
-\noindent
 Таким чином, для підтримки ефективної командної роботи необхідно наступне:
  визначення вимог до керівника колективу та його пошук на основі цих вимог,
  знання обліку принципів формування високоефективної команди, розуміння
@@ -963,50 +953,26 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage clearpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{landscape}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
+\start_of_appendix
 \begin_inset Float table
-placement H
+placement p
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-\noindent
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-abc
+феномени, що виникають у групі і мають відношення до ефективності командної
+ роботи
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:phenomena"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1015,97 +981,187 @@ abc
 \end_layout
 
 \begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-fbox{
-\end_layout
-
-\end_inset
-
-
 \begin_inset Tabular
-<lyxtabular version="3" rows="1" columns="1">
+<lyxtabular version="3" rows="8" columns="2">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0pt" special="c">
+<column alignment="left" valignment="top" width="25text%">
+<column alignment="left" valignment="top" width="75text%">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Detection Methods & Supervised /Semi-supervised/ Unsupervised & Technique
- Used & Applications & Technology 
-\backslash
 
-\backslash
- Statistical & & Gaussian-based detection & Online anomaly detection & Conventio
-nal data centres 
-\backslash
+\series bold
+Феномен
+\end_layout
 
-\backslash
- Statistical & & Gaussian-based detection & General & General 
-\backslash
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
 
-\backslash
- Statistical & & Regression analysis & Globally-distributed commercial applicati
-ons & Distributed, Web-based, Application 
-\backslash
-& System metrics 
-\backslash
+\begin_layout Plain Layout
 
-\backslash
- Statistical & & Regression analysis & Web applications & Enterprise web
- applications and conventional data centre 
-\backslash
+\series bold
+Опис
+\end_layout
 
-\backslash
- Statistical & & Correlation & Complex enterprise online applications &
- Distributed System 
-\backslash
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
 
-\backslash
- Statistical & & Correlation & Orleans system and distributed cloud computing
- services & Virtualized, cloud computing and distributed system (Orleans
- system) 
-\backslash
+\begin_layout Plain Layout
+ефект обсягу
+\end_layout
 
-\backslash
- Statistical & & Correlation & Hadoop, Olio and RUBiS & Virtualized cloud
- computing and distributed systems.
- 
-\backslash
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
 
-\backslash
- ĘMachine learning & Supervised & Bayesian classification & Online application
- & IBM system S-distributed stream processing cluster 
-\backslash
+\begin_layout Plain Layout
+Результати діяльності залежать від чисельності групи (ефективність дуже
+ маленької або дуже великої групи буде меншою).
+\end_layout
 
-\backslash
- Machine learning & Unsupervised & Neighbour-based technique (Local Outlier
- Factor algorithm) & General & Cloud Computing system 
-\backslash
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
 
-\backslash
- Machine learning & Semi-supervised & Principle component analysis and Semi-supe
-rvised Decision-tree
-\backslash
-_ & Institute-wide cloud computing environment & Cloud Computing 
-\backslash
+\begin_layout Plain Layout
+ефект якісного складу групи
+\end_layout
 
-\backslash
- Statistical & & Regression curve fitting the service time-adapted cumulative
- distributed function & Online application service & Platform and configuration
- agnostic 
-\backslash
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
 
-\backslash
- & & & & 
+\begin_layout Plain Layout
+Результати командної роботи залежать від однорідності-різнорідності складу
+ (краще за всіх спрацюється група, члени якої різної статі і віку, але практично
+ однакові за соціальними характеристиками).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+конформізм
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Поведінка або переконання членів групи змінюються в результаті реального
+ чи уявного тиску групи.
+ Роль громадської думки вельми висока для кожного члена команди, і кожен
+ поважає принципи, вироблені спільними зусиллями.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+деіндивідуалізація
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Втрата самосвідомості і боязнь оцінки в ситуаціях анонімності, що не концентруют
+ь увагу на конкретній людині.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+феномен зсуву ризику
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Група приймає або найбільш, або найменш ризиковане рішення, ніж брали б
+ окремо її члени.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Quotes xld
+\end_inset
+
+огруплене
+\begin_inset Quotes xrd
+\end_inset
+
+ мислення
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Всі члени групи зайняті виключно пошуком рішення, яке влаштує кожного, і
+ відкидають досить реалістичні варіанти.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+соціальні лінощі
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Якщо відповідальність розділяється на членів групи, то всі починають працювати
+ абияк.
 \end_layout
 
 \end_inset
@@ -1116,96 +1172,26 @@ _ & Institute-wide cloud computing environment & Cloud Computing
 \end_inset
 
 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{landscape}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename mathis_3.jpg
-	lyxscale 30
-	width 100text%
-	height 100theight%
-	keepAspectRatio
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-test
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage clearpage
 \end_inset
 
 
 \end_layout
 
 \begin_layout Bibliography
-\start_of_appendix
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
+label "1."
 key "key-1"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "[1]"
 
 \end_inset
 
